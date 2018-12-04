@@ -10,6 +10,7 @@ WriteMakefile(
     VERSION_FROM => 'lib/Mojolicious/Plugin/Validate/Tiny.pm',
     AUTHOR       => 'Adrian Crisan <adrian.crisan88@gmail.com>',
     MIN_PERL_VERSION => 5.010,
+    LICENSE      => 'perl_5',
     PREREQ_PM    => {
         'Mojolicious'    => 6.00,
         'Validate::Tiny' => 0.984
