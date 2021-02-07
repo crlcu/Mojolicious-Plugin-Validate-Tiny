@@ -256,7 +256,8 @@ If "explicit" is true then for every field must be provided check rule
 =head2 C<autofields> (default 1)
 
 If "autofields" then validator will automatically create fields list based on passed checks.
-So, you can pass: 
+So, you can pass:
+ 
     [
         user => is_required(),
         pass => is_required(),
